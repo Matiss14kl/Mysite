@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Livonia Development group SIA</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #8B0000; /* тёмно-красный фон */
+        color: #ffffff;
+        font-size: 20px; /* большой текст */
+    }
+    h1, h2, h3 {
+        color: #ffffff;
+        font-weight: bold;
+    }
+    h1.company-title {
+        font-family: "Times New Roman", serif;
+        font-size: 48px;
+    }
+    section {
+        padding: 80px 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+    }
+    .full-screen {
+        height: 100vh;
+        position: relative;
+        color: white;
+    }
+    .full-screen img.bg {
+        position: absolute;
+        left: 0; top: 0;
+        width: 100%; height: 100%;
+        object-fit: cover;
+        filter: brightness(35%);
+        z-index: -1;
+    }
+    .content {
+        max-width: 650px;
+    }
+    img.side-image {
+        width: 45%;
+        border-radius: 10px;
+    }
+    .form-block {
+        background: #AA0000;
+        padding: 60px 10%;
+    }
+    input, textarea {
+        width: 100%;
+        padding: 15px;
+        margin-top: 15px;
+        border-radius: 10px;
+        border: none;
+        font-size: 18px;
+    }
+    button {
+        margin-top: 20px;
+        padding: 15px 30px;
+        font-size: 20px;
+        background: #660000;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+</style>
+</head>
+
+<body>
+
+<!-- 1. ГЛАВНЫЙ ЭКРАН -->
+<section class="full-screen" id="hero">
+    <img class="bg" src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+    <div class="content">
+        <h1 class="company-title">Livonia Development group SIA</h1>
+        <h2>Profesionāli dokumentu sagatavošanas un tehniskā biroja atbalsta risinājumi.</h2>
+        <p>
+            Mēs nodrošinām precīzu dokumentu kopēšanu, strukturētu failu sagatavošanu un
+            tehnisko biroja procesu atbalstu uzņēmumiem, kuri vēlas strādāt ātrāk un efektīvāk.
+            Mūsu speciālisti palīdz ieviest kārtību dokumentācijā un darba procesos.
+        </p>
+    </div>
+</section>
+
+<!-- 2. ПРО НАС -->
+<section id="about">
+    <div class="content">
+        <h2>Kas Mēs Esam?</h2>
+        <p>
+            Livonia Development group SIA specializējas sarežģītu biroja tehnisko uzdevumu veikšanā,
+            nodrošinot kvalitatīvu dokumentu kopēšanu, digitalizāciju un profesionālu saturisko sagatavošanu.
+            Mūsu komanda apvieno precizitāti, ātru izpildi un individuālu pieeju katram klientam.
+            Strādājam gan ar lieliem datu apjomiem, gan nelieliem projektiem, nodrošinot pilnīgu konfidencialitāti.
+            Mūsu mērķis ir atvieglot ikdienas biroja procesus, lai Jūs varētu koncentrēties uz sava uzņēmuma attīstību.
+        </p>
+    </div>
+    <img class="side-image" src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158" alt="">
+</section>
+
+<!-- 3. СЕРВИСЫ -->
+<section id="services">
+    <div class="content">
+        <h2>Mūsu Profesionālie Pakalpojumi</h2>
+
+        <h3>📄 Dokumentu kopēšana un digitalizācija</h3>
+        <p>
+            Nodrošinām augstas kvalitātes dokumentu kopijas un digitalizāciju lielos apjomos.
+            Mūsu aprīkojums garantē precīzu attēla kvalitāti, saglabājot visu strukturālo informāciju.
+            Darbam pieejama arī sensitīvo dokumentu apstrāde ar drošības protokoliem.
+        </p>
+
+        <h3>🖨 Tehniskais biroja atbalsts</h3>
+        <p>
+            Mēs palīdzam uzturēt Jūsu biroja procesus vienmērīgus un efektīvus.
+            Piedāvājam asistenci ar datu sakārtošanu, arhivēšanu, sagatavošanu iesniegšanai un uzskaiti.
+            Nodrošinām stabilu atbalstu ikdienas operacionālajam darbam.
+        </p>
+
+        <h3>✏ Dokumentu sagatavošana un strukturēšana</h3>
+        <p>
+            Sagatavojam dokumentus prezentācijām, iekšējai lietošanai un iesniegšanai valsts iestādēs.
+            Rūpējamies par strukturētu formātu, detalizētu pārskatāmību un profesionālu izkārtojumu.
+            Veicam korekcijas, standartizāciju un kvalitātes pārbaudi.
+        </p>
+    </div>
+</section>
+
+<!-- 4. ПРЕИМУЩЕСТВА -->
+<section id="advantages">
+    <div class="content">
+        <h2>Kāpēc Izvēlēties Mūs?</h2>
+
+        <h3>✓ Precizitāte un konfidencialitāte</h3>
+        <p>
+            Apstrādājam dokumentus ar visaugstāko rūpību, ievērojot drošības standartus, 
+            garantējot pilnīgu datu aizsardzību un drošību.
+        </p>
+
+        <h3>✓ Ātra izpilde</h3>
+        <p>
+            Mūsu komanda nodrošina ātru apstrādi arī steidzamiem projektiem,
+            nezaudējot kvalitāti un profesionālu pieeju.
+        </p>
+
+        <h3>✓ Individuāli risinājumi</h3>
+        <p>
+            Mēs pielāgojamies katra klienta specifiskajām vajadzībām un biroja darba specifikai,
+            radot pielāgotus un efektīvus risinājumus.
+        </p>
+    </div>
+</section>
+
+<!-- 5. НАШ ПРОЦЕСС -->
+<section id="process">
+    <div class="content">
+        <h2>Kā Mēs Strādājam</h2>
+
+        <h3>1. Konsultācija</h3>
+        <p>
+            Izrunājam Jūsu vajadzības un precīzus uzdevumus, lai noteiktu optimālāko darba procesu.
+        </p>
+
+        <h3>2. Dokumentu apstrāde</h3>
+        <p>
+            Veicam kopēšanu, digitalizāciju, sagatavošanu un tehnisko apstrādi atbilstoši vajadzībām.
+        </p>
+
+        <h3>3. Gala nodošana</h3>
+        <p>
+            Nododam gatavu un sakārtotu materiālu digitālā vai fiziskā formātā, pēc Jūsu izvēles.
+        </p>
+    </div>
+</section>
+
+<!-- 6. КОНТАКТЫ -->
+<section class="full-screen" id="contact">
+    <img class="bg" src="https://images.unsplash.com/photo-1560264357-8d9202250f21" alt="">
+    <div class="content">
+        <h2>Sazinieties ar Mums</h2>
+        <p>
+            Ja Jums nepieciešams profesionāls biroja tehniskais atbalsts vai dokumentu apstrādes pakalpojumi,
+            rakstiet mums – mēs palīdzēsim atrisināt jebkuru uzdevumu. 
+            Mūsu komanda strādā ātri, uzticami un ar maksimālu precizitāti.
+        </p>
+        <p><strong>E-pasts:</strong> office@livoniadevelopmentgroup.org</p>
+        <p><strong>Adrese:</strong> 24 - 17 Pulkveza Brieza iela, Sigulda LV-2150</p>
+    </div>
+</section>
+
+<!-- 7. КОНТАКТНАЯ ФОРМА -->
+<section class="form-block" id="form">
+    <div class="content">
+        <h2>Sūtiet Mums Ziņu</h2>
+        <p>Ja vēlaties uzzināt vairāk vai vēlaties saņemt personalizētu piedāvājumu, aizpildiet zemāk esošo formu.</p>
+
+        <form>
+            <input type="text" placeholder="Jūsu vārds">
+            <input type="email" placeholder="Jūsu e-pasts">
+            <textarea rows="6" placeholder="Jūsu ziņojums"></textarea>
+            <button>Sūtīt ziņu</button>
+        </form>
+    </div>
+</section>
+
+</body>
+</html>
